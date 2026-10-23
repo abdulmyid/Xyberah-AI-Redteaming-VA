@@ -1,0 +1,15 @@
+services:
+  xyberah:
+    image: xyberah:0.124.1
+    container_name: xyberah
+    ports:
+      - "3000:3000"
+    volumes:
+      - xyberah-data:/home/xyberah/.promptfoo   # eval history / sqlite DB
+    environment:
+      # Provider keys used by your evals, e.g.
+      # OPENAI_API_KEY: ${OPENAI_API_KEY}
+      PROMPTFOO_DISABLE_TELEMETRY: "1"
+    restart: unless-stopped
+volumes:
+  xyberah-data:

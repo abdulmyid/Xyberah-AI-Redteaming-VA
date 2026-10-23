@@ -1,0 +1,5 @@
+*.md
+.env
+.git
+docker-compose.yml
+build-and-push.sh

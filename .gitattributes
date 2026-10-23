@@ -1,0 +1,4 @@
+# Keep LF line endings on every OS (shell scripts and the Docker build need them)
+* text=auto eol=lf
+*.png binary
+*.ico binary
