@@ -13,14 +13,7 @@ Under the hood it is the open-source [Promptfoo](https://github.com/promptfoo/pr
 
 **New here? Start with [SETUP.md](SETUP.md).**
 
-## What gets rebranded
-
-| Area | Change |
-|---|---|
-| Web UI | Header logo + `XYBERAH` wordmark, favicons, browser tab titles (`Eval \| Xyberah`), welcome/login screens, "About" dialog, product name in help text |
-| CLI | Command is `xyberah` (the `promptfoo` / `pf` commands are removed); `--help`, hints and messages say `xyberah …` / Xyberah |
-| Image | Runs as user `xyberah`; OCI labels set to Xyberah; telemetry and update checks off |
-| Upsells | The red-team "community edition" banner says Xyberah and links to xyberah.com; Enterprise-only industry suites, the GCG strategy and the locked Model Audit tabs (Cloud, GitHub, Registry) are hidden |
+<img width="938" height="451" alt="image" src="https://github.com/user-attachments/assets/45230b87-4a19-4a9f-a8c4-2c5d1b550133" />
 
 Left unchanged on purpose, so existing configs keep working: `promptfooconfig.yaml`, `PROMPTFOO_*` env vars, `promptfoo:redteam:*` provider IDs, data folder `~/.promptfoo`. Mentions of "Promptfoo Cloud/Enterprise" stay because those still point to Promptfoo's hosted service. The MIT `LICENSE` is shipped in `/app/LICENSE`, as the licence requires.
 
